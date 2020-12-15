@@ -1,0 +1,210 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: url('../images/banner1.jpg') no-repeat center center/cover;
+    margin: 0;
+    padding: 0;
+}
+.row{
+    display:flex; /*Thành 1 hàng*/
+    justify-content: space-evenly; /* nội dung ra giữa*/
+}
+.buy{
+    background: blue;
+    padding: 7px 13px;
+    border:  none;
+    outline: none;
+    border-radius: 5px 0px 0px 5px;
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+}
+.shop{
+    background: red;
+    padding: 7px 13px;
+    border:  none;
+    outline: none;
+    border-radius: 0 5px 5px 0;
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+}
+.btn-header{
+    margin-top: 5px;
+}
+.row-menu{
+    display:flex; /*Thành 1 hàng*/
+    justify-content: space-around;
+    margin-t: 10px;
+}
+.row-menu h3{
+    font-size:24px;
+    color:white;
+    font-weight: 500;
+    text-shadow: 1px 0 2px red;
+    padding-bottom: 10px;
+}
+.row-menu .row-1 a{
+    font-size: 18px;
+    color:white;
+    text-decoration: none; /* Ẩn gạch chân*/
+    padding: 0 15px;
+    padding-bottom: 10px;
+}
+.row-menu1{
+    margin:0;
+    padding:0;
+    background: black;
+    display:flex;
+    justify-content: center; 
+}
+.row-menu1 a{
+    color:white;
+    font-size:18px;
+    letter-spacing: 1.2px; /* Khoảng cách giữa các chữ cái*/
+    text-decoration: none;
+    padding: 4px 20px   ;
+    border-right: 1px solid white;
+}
+.row-menu1 a:hover{
+    color:black;
+    background:yellow;
+}
+.input-search input{
+    padding: 6px;
+    border:none;
+    outline: none;
+    border-radius: 5px 5px;
+}
+.input-search button{
+    border: none;
+    border-radius: 5px 5px;
+    padding: 6px;
+}
+.slides{
+    position:relative;
+    margin: 0;
+    padding:0;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+.slide{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    display: none;
+}
+.show{
+    display: block;
+}
+.slide:first-child{ /* Gán slide vào */
+    background: url('../images/slide1.jpg') no-repeat center center/cover;
+}
+.slide:nth-child(2){
+    background: url('../images/slide2.jpg') no-repeat center center/cover;
+}
+.slide:nth-child(3){
+    background: url('../images/slide3.jpg') no-repeat center center/cover;
+}
+.content{
+    position: absolute;
+    top: 25%;
+    left: 70%;
+}
+.content h1{
+    font-size: 36px;
+    font-weight: 500;
+    color:white;
+    text-shadow: 1px 0 2px red;
+}
+.content button{
+   background:red;
+   font-size: 30px;
+   color:white;
+   font-weight: 500;
+   border:none;
+   border-radius: 5px;
+   box-shadow:1px 0 2px white;
+   padding: 5px 12px;
+}
+.node{
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+}
+.node a{
+    text-decoration: none;
+    background: white;
+    padding:3px 9px;
+    outline: none;
+    justify-content: space-around;
+}
+.active{
+    color:black;
+}
+.bg-1{
+    background: url('../images/banner2.jpg');
+    width:100%;
+    padding:0;
+    margin: 0;
+}
+.container-1
+{
+    width: 80%;
+    margin: auto;
+}
+.row-2{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    margin: 25px;
+    border-radius: 3px;
+    border: 1px grey solid;
+    text-align: center;
+}
+.box h1{
+    color:white;
+    font-size: 40px;
+    box-shadow: 1px 3px 5px grey;
+    font-weight: 500;
+}
+.box p{
+    color:white;
+    font-size: 20px;
+    padding-top: 35px;
+    font-weight: 500;
+    padding-bottom: 35px;
+}
+.box button{
+    background: red;
+    color:white;
+    font-size: 20px;
+    box-shadow: 1px 0 2px white;
+    border:none;
+    border-radius: 3px;
+    padding: 1px 2px;
+    margin-bottom: 35px;
+}
+
+.row-3{
+    background: black;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.for-1 h1{
+    color: white;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.for-1 span{
+    color: white;
+    font-size: 16px;
+}
